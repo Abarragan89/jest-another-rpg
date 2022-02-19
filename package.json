@@ -4,7 +4,7 @@
   "description": "This is a Node.js app that uses the jest package to test development. This is an object oriented program that is operated through the command line.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Abarragan89/jest-another-rpg/issues"
   },
-  "homepage": "https://github.com/Abarragan89/jest-another-rpg#readme"
+  "homepage": "https://github.com/Abarragan89/jest-another-rpg#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
